@@ -1,24 +1,25 @@
 name: minio
 description: Unofficial MinIO Dart Client SDK that provides simple APIs to access any Amazon S3 compatible object storage server.
-version: 3.5.0
+version: 3.5.1
 homepage: https://github.com/clansofts/minio_new
 issue_tracker: https://github.com/clansofts/minio_new/issues
 
 environment:
-  sdk: ">=2.12.0 <3.0.0"
+  sdk: '>=3.3.4 <4.0.0'
+  # sdk: ">=2.12.0 <3.0.0"
 
 dependencies:
-  meta: ^1.3.0
-  http: ^1.2.0
-  crypto: ^3.0.0
-  convert: ^3.0.0
+  meta: ^1.15.0
+  http: ^1.2.1
+  crypto: ^3.0.3
+  convert: ^3.1.1
   xml: ^6.5.0
-  buffer: ^1.1.0
-  intl: ^0.18.1
-  mime: ^1.0.0
-  path: ^1.8.0
+  buffer: ^1.2.3
+  intl: ^0.19.0
+  mime: ^1.0.5
+  path: ^1.9.0
 
 dev_dependencies:
-  pedantic: ^1.11.0
-  test: ^1.16.8
-  html: ^0.15.0
+  pedantic: ^1.11.1
+  test: ^1.25.7
+  html: ^0.15.4
